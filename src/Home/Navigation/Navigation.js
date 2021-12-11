@@ -6,7 +6,7 @@ const Navigation = () => {
         <div>
             <Navbar bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home">LOSANGELES <br /> <span className='text-primary'>MOUNTAINS</span></Navbar.Brand>
+                    <Navbar.Brand href="#home" style={{fontWeight:"700"}}>LOSANGELES <br /> <span className='text-primary'>MOUNTAINS</span></Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#features">1.HISTORY</Nav.Link>
                         <Nav.Link href="#pricing">2.TEAM</Nav.Link>
