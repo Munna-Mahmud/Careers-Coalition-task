@@ -15,18 +15,18 @@
 }
 
 .center {
-    margin-top: 40%;
+    margin-top: 30%;
    
    }
  .hero-content{
     text-align: center;
 }
-.hero-content h1{
-     font-size: 40px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-weight: 900;
-
- }
+.hero-content h1 {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin-top: 10px;
+}
 
  .span_text{
      color: rgb(22, 22, 83);
@@ -35,8 +35,30 @@
 
  /* responsive for mobile device  */
  @media only screen and (max-width: 600px) {
-    .center {
-        margin-top: 65%;
-       
-       }
+    .hero-content h1 {
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        margin-top: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+  .hero-content h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin-top: 60%;
+}
+  }
+
+  /* for ipad and tablets  */
+  @media only screen and (min-width: 768px) {
+    .hero-content h1 {
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        margin-top: 50%;
+    }
+
   }
