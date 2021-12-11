@@ -1,0 +1,13 @@
+.mountain-img{
+    background-image: url('../images/mountain1\ \(2\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.detail-text{
+   background-color: azure;
+   position: absolute;
+   padding: 20px;
+   margin: 10px;
+}

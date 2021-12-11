@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+/* top banner images css code here  */
+.banner-img{
+    background-image: url('../images/mountain1\ \(1\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+
+}
+
+.center {
+    margin-top: 40%;
+   
+   }
+ .hero-content{
+    text-align: center;
+}
+.hero-content h1{
+     font-size: 40px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 900;
+
+ }
+
+ .span_text{
+     color: rgb(22, 22, 83);
+
+ }
+
+ /* responsive for mobile device  */
+ @media only screen and (max-width: 600px) {
+    .center {
+        margin-top: 65%;
+       
+       }
+  }
